@@ -1,0 +1,15 @@
+.descriptionCard {
+  width: 49%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: rgba(107, 6, 138, 0.9);
+  transform: translateY(-12rem);
+  border-radius: 20px;
+  color: white;
+  padding: 10px 10px;
+  box-shadow: -0px -0px 11px -1px rgba(4, 4, 4, 1);
+}
+
+.descriptionCard h2 {
+  margin-top: 0px;
+}

@@ -1,0 +1,53 @@
+.listContainer {
+  overflow: auto;
+  height: 300px;
+}
+
+.cartWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #370049;
+}
+
+.cartValue {
+  display: flex;
+  justify-content: space-between;
+  width: 150px;
+  font-weight: bold;
+
+  .totalPrice {
+    color: #5b0279;
+  }
+
+
+  .totalAmount {
+    border: 0.05px solid rgb(229 229 229);
+    border-radius: 5px;
+    width: 40px;
+    text-align: center;
+  }
+}
+
+.addRemoveWrapper {
+  display: flex;
+  gap: 8px;
+
+  .container {
+    width: 35px;
+    height: 35px;
+  }
+
+  .material-icons {
+    font-size: 35px;
+    color: #5b0279;
+  }
+
+  .material-icons:hover {
+    cursor: pointer;
+  }
+
+  .material-icons:active {
+    font-size: 33px;
+  }
+}

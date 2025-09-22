@@ -1,0 +1,60 @@
+button {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 230px;
+  height: 35px;
+  background-color: #47035d;
+  border-radius: 30px;
+  box-shadow: none;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+
+.numberAddedItems {
+  padding: 5px 12px;
+  border-radius: 40%;
+  background-color: #a31bcc;
+}
+
+button:hover,
+button:focus-visible {
+  background-color: #2e043b;
+}
+
+button:focus-visible {
+  outline: none;
+}
+
+button:hover .numberAddedItems,
+button:focus-visible .numberAddedItems {
+  background-color: #661280;
+}
+
+.bump {
+  animation: bump 300ms ease-out;
+}
+
+@keyframes bump {
+  0% {
+    transform: scale(1);
+  }
+
+  10% {
+    transform: scale(0.9);
+  }
+
+  30% {
+    transform: scale(1.1);
+  }
+
+  50% {
+    transform: scale(1.15);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
